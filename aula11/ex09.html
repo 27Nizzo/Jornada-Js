@@ -20,7 +20,15 @@
         var txtnatio = window.document.querySelector('input#txtn')
         var res = window.document.querySelector('div#res')
         var n = String(txtn.value)
-        res.innerHTML = '<p>Your nation is ${n}</p>'
+        if (n === 'Portuguese' || n === 'portuguese' ) {
+            res.innerHTML = 'Your Nation is Portugal!' 
+        } else if (n === 'Brazilian' || n === 'brazilian') {
+            res.innerHTML = 'Your Nation is Brazil!'     
+        } else if (n === 'English' || n === 'english') {
+            res.innerHTML = 'Your Nation is England!'
+        } else {
+            res.innerHTML = 'Sorry but we dont do that here...'
+        }
         }
     </script>
 </body>
