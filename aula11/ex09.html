@@ -1,18 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nacionality System</title>
-    <style>
-        body {
-            text-align: center;
-        }
-    </style>
+
+    <link rel="stylesheet" href="styles.css">
+
+
 </head>
+
 <body>
     <h1>Nacionality System</h1>
-    
+
     Your Nacionality is <input type="string" name="txtn" id="txtn">
     <input type="button" value="Verification" onclick="nation()">
     <div id="res">
@@ -20,21 +21,22 @@
     </div>
     <script>
         function nation() {
-            
-        
-        var txtnatio = window.document.querySelector('input#txtn')
-        var res = window.document.querySelector('div#res')
-        var n = String(txtn.value)
-        if (n === 'Portuguese' || n === 'portuguese' ) {
-            res.innerHTML = 'Your Nation is Portugal!' 
-        } else if (n === 'Brazilian' || n === 'brazilian') {
-            res.innerHTML = 'Your Nation is Brazil!'     
-        } else if (n === 'English' || n === 'english') {
-            res.innerHTML = 'Your Nation is England!'
-        } else {
-            res.innerHTML = 'Sorry but we dont do that here...'
-        }
+
+
+            var txtnatio = window.document.querySelector('input#txtn')
+            var res = window.document.querySelector('div#res')
+            var n = String(txtn.value)
+            if (n === 'Portuguese' || n === 'portuguese') {
+                res.innerHTML = 'Your Nation is Portugal!'
+            } else if (n === 'Brazilian' || n === 'brazilian') {
+                res.innerHTML = 'Your Nation is Brazil!'
+            } else if (n === 'English' || n === 'english') {
+                res.innerHTML = 'Your Nation is England!'
+            } else {
+                res.innerHTML = 'Sorry but we dont do that here...'
+            }
         }
     </script>
 </body>
+
 </html>
