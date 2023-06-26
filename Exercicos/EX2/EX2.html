@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verificar Idade</title>
+    <link rel="stylesheet" href="EX2.css">
+</head>
+
+<body>
+    <header>
+        <h1>Verificar Idade e Sexo</h1>
+    </header>
+
+    <section>
+        <div>
+            <p>Ano de nascimento:
+                <input type="number" name="txtano" id="txtano" min=0>
+            </p>
+            <p>
+                Sexo:
+                <input type="radio" name="radsex" id="masc">
+                <label for="masc">Masculino </label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Feminino</label>
+                <input type="radio" name="radsex" id="ot">
+                <label for="ot">Outro</label>
+            </p>
+            <p>
+                <input type="button" value="Verificar" onclick="verificar()">
+            </p>
+        </div>
+        <div id="res">
+            Preencha os dados em cima para ver o resultado!
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy;<strong><em>Exercicio 2</em></strong> </p>
+    </footer>
+
+    <script src="EX2.js"></script>
+
+</body>
+
+</html>
