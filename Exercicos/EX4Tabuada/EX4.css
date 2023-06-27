@@ -1,0 +1,32 @@
+header {
+
+}
+
+h1 {
+    font: normal 25pt;
+    font-style: italic;
+    text-align: center;
+
+}
+
+body {
+    background-color: rgb(84, 99, 162);
+}
+
+section {
+    border-radius: 15px;
+    margin: auto;
+    padding: 15px;
+    width: 500px;
+    background-color: aliceblue;
+    font: normal 15pt Arial;
+
+}
+
+footer {
+    text-align: center;
+    font: normal 15pt Arial;
+    font-style: italic;
+    margin: auto;
+    padding: 15px;
+}
