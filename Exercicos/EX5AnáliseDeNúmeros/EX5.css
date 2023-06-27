@@ -1,0 +1,27 @@
+header {
+    text-align: center;
+    font: normal 20pt Arial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+    background-color: darkcyan;
+}
+
+section {
+    width: 500px;
+    padding: 15px;
+    margin: auto;
+    border-radius: 20px;
+    background-color: darksalmon;
+    font: normal 18pt Arial;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    margin: 10px;
+
+}
